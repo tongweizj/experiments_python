@@ -159,6 +159,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .DS_Store
-python_sprider_demo/scrape-ssr1/results/
-python_matplotlib/json/data/
-python_matplotlib/csv/data/
+/scrape-ssr1/results/
+/json/data/
+/csv/data/
+practise-matplotlib/json/data/
+practise-crawler/scrape-ssr1/results/
+practise-matplotlib/csv/data/
