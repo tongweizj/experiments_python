@@ -10,9 +10,9 @@ app = FastAPI()
 # tags 可选，提示
 app.include_router(api_book, prefix="/book", tags=["book api"])
 
-@app.get('/')
+@app.get("/")
 async def root():
-    return {"mesage:": "Hello"}
+    return {"message": "Hello World"}
 
 
 if __name__ == '__main__':
