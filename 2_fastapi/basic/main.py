@@ -2,13 +2,14 @@ from fastapi import FastAPI
 from fastapi import Request
 # 导入陆游
 from api.book import api_book
-
+from api.author import api_author
 # 启动web服务器
 import uvicorn
 app = FastAPI()
 
 # tags 可选，提示
 app.include_router(api_book, prefix="/book", tags=["book api"])
+app.include_router(api_author, prefix="/author", tags=["book author"])
 
 @app.get("/")
 async def root():
