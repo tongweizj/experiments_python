@@ -1,0 +1,6 @@
+layer,thickness,Density_gcm3,Temperature_C
+Crust,35,2.9,500
+Upper Mantle,660,4.4,2000
+Lower Mantle,2890,5.6,3000
+Outer Core,5150,12.2,5000
+Inner Core,6371,13.1,6000
