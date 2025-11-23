@@ -1,0 +1,9 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+sqlalchemy==2.0.23
+pydantic==2.5.0
+python-dotenv==1.0.0
+# 根据你使用的数据库添加相应驱动
+# sqlite: 无需额外驱动
+postgresql: psycopg2-binary
+# mysql: pymysql
